@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot of AddCourse.js UI 1`] = `
+<div>
+  <div
+    class="add-course-container"
+  >
+    <div
+      class="add-course-card"
+    >
+      <h2>
+        Add New Course
+      </h2>
+      <form>
+        <div
+          class="image-upload"
+        >
+          <label
+            for="file-input"
+          >
+            <div
+              class="upload-placeholder"
+            >
+              📷 Upload Image
+            </div>
+          </label>
+          <input
+            accept="image/*"
+            id="file-input"
+            style="display: none;"
+            type="file"
+          />
+        </div>
+        <input
+          placeholder="Course Name"
+          required=""
+          type="text"
+          value=""
+        />
+        <div
+          class="row"
+        >
+          <input
+            min="2025-12-17"
+            required=""
+            type="date"
+            value=""
+          />
+          <input
+            required=""
+            type="time"
+            value=""
+          />
+          <select>
+            <option
+              value="Online"
+            >
+              Online
+            </option>
+            <option
+              value="In-Person"
+            >
+              In-Person
+            </option>
+          </select>
+        </div>
+        <input
+          placeholder="Course Description"
+          type="text"
+          value=""
+        />
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,127 @@
+/* WorkshopDetails.css */
+
+/* Layout */
+.dashboard {
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  background-color: #ffe6eb; /* soft pink background */
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff4d6d;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Main card */
+.main-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.main-card .title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+/* Workshop content */
+.workshop-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.workshop-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.workshop-info {
+  flex: 1;
+}
+
+.workshop-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.workshop-info p {
+  margin-bottom: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.tags {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ff4d6d;
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #ff4d6d;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #ff2a4a;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #ff4d6d;
+  border: 2px solid #ff4d6d;
+}
+
+.btn-outline:hover {
+  background-color: #ff4d6d;
+  color: #fff;
+}
